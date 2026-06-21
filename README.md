@@ -49,7 +49,7 @@
 - Python 3.10+
 - CUDA GPU (A100 / V100 권장, ~20GB VRAM)
 - Conda / Miniconda
-- ffmpeg (installed automatically through `environment.yml`)
+- environment.yml
 - 외부 API 키 불필요 — 모든 모델 로컬 실행
 
 ---
