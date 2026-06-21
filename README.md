@@ -1,4 +1,4 @@
-# 🎵 AudioDream — Sound to Living Scene
+# Sound to Video
 
 > 오디오를 들려주세요 — AI가 그 소리가 만드는 **살아있는 장면**을 생성합니다.
 
