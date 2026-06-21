@@ -58,7 +58,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/audio-dream.git
+git clone https://github.com/jueunp/audio-dream.git
 cd audio-dream
 bash setup.sh
 ```
@@ -70,12 +70,10 @@ PyTorch CUDA wheels, and all Python dependencies.
 
 ```bash
 conda activate audiodream
-CUDA_VISIBLE_DEVICES=4 python demo.py
+python demo.py
 # → http://localhost:7860
 ```
 
-Use `CUDA_VISIBLE_DEVICES=4` to allocate physical GPU #4. Inside PyTorch, this
-appears as `cuda:0` because only that GPU is visible to the process.
 
 ---
 
