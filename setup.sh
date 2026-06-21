@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# AudioDream — setup.sh
 # git clone 후 한 번만 실행: bash setup.sh
 
 set -e
@@ -7,9 +6,6 @@ set -e
 ENV_NAME="${CONDA_ENV_NAME:-audiodream}"
 TORCH_INDEX_URL="${TORCH_INDEX_URL:-https://download.pytorch.org/whl/cu118}"
 
-echo "=============================="
-echo "   AudioDream — Setup"
-echo "=============================="
 
 if ! command -v conda &> /dev/null; then
     echo "[ERROR] conda not found. Please install Miniconda or Anaconda first."
@@ -45,6 +41,5 @@ echo ""
 echo "=============================="
 echo "  Setup complete!"
 echo "  Activate: conda activate ${ENV_NAME}"
-echo "  Run on GPU 4: CUDA_VISIBLE_DEVICES=4 python demo.py"
 echo "  Open: http://localhost:7860"
 echo "=============================="
