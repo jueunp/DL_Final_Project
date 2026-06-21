@@ -88,7 +88,7 @@ python demo.py
   
 
 ## Demo
-![demo UI](assets/demo.png)
+![demo UI](outputs/demo.png)
 
 ---
 
