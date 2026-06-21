@@ -86,6 +86,10 @@ python demo.py
    - SDXL-Turbo 생성 이미지
    - Depth Anything V2 깊이 맵
    - 2.5D Parallax 영상 (원본 오디오 포함)
+  
+
+## Demo
+![demo UI](assets/demo.png)
 
 ---
 
