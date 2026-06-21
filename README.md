@@ -58,7 +58,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/jueunp/audio-dream.git
+git clone https://github.com/jueunp/DL_Final_Project.git
 cd audio-dream
 bash setup.sh
 ```
