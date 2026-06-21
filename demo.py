@@ -309,7 +309,7 @@ def run_pipeline(
     image = generate_image(scene, seed=int(seed))
 
     # ── Step 3: Depth Anything V2 ───────────
-    progress(0.60, desc="=[3/3] Depth Anything V2: 깊이 추정 중...")
+    progress(0.60, desc="[3/3] Depth Anything V2: 깊이 추정 중...")
     depth = get_depth(image)
     depth_vis = Image.fromarray((depth * 255).astype(np.uint8)).convert("RGB")
 
