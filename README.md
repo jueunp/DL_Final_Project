@@ -59,7 +59,7 @@
 
 ```bash
 git clone https://github.com/jueunp/DL_Final_Project.git
-cd audio-dream
+cd DL_Final_Project
 bash setup.sh
 ```
 
